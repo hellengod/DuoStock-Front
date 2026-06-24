@@ -10,7 +10,32 @@ const router = createRouter({
       path: '/dashboard',
       name: 'Dashboard',
       component: DashBoardView
-    }
+    },
+    {
+      path: '/produtos',
+      name: 'Produtos',
+      component: DashBoardView
+    },
+    {
+      path: '/vendas',
+      name: 'Vendas',
+      component: DashBoardView
+    },
+    {
+      path: '/categorias',
+      name: 'Categorias',
+      component: DashBoardView
+    },
+    {
+      path: '/fornecedores',
+      name: 'Fornecedores',
+      component: DashBoardView
+    },
+    {
+      path: '/estoque',
+      name: 'Estoque',
+      component: DashBoardView
+    },
   ],
 })
 
